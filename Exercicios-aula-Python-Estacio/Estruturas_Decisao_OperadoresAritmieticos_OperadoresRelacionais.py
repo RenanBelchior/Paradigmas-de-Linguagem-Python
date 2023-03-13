@@ -4,7 +4,7 @@
 
 #EXEMPLO 1:
 if (teste_logico):
-    boloco_verdadeiro
+    bloco_verdadeiro
 
 #EXEMPLO 2:
 if (teste_logico):
