@@ -11,4 +11,4 @@ if (timeA > timeB):
 elif(timeB > timeA):
     print("O time",timeb ,"ganhou!")
 else:
-    print("Os times",timea ,"e", timeb ,"empataram!")
+    print("O time",timea ,"e", timeb ,"empataram!")
