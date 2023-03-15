@@ -1,13 +1,14 @@
 #4- Leia o numero de gols de dois times, o nome deles e informe se..
 #empataram ou qual dos dois ganhou.
 
+timea = (input("Digite o nome do time A: "))
+timeb = (input("Digite o nome do time B: "))
 timeA = int(input("Digite o numero de gols do Time A: "))
 timeB = int(input("Digite o numero de gols do Time B: "))
 
 if (timeA > timeB):
-    print("O time A ganhou!")
+    print("O time",timea ,"ganhou!")
 elif(timeB > timeA):
-    print("O Time B ganhou!")
+    print("O time",timeb ,"ganhou!")
 else:
-    print("Os 2 times empataram!")
-    
+    print("Os times",timea ,"e", timeb ,"empataram!")
