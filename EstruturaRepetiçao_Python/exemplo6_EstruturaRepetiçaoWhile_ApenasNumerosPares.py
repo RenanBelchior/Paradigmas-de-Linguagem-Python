@@ -1,0 +1,8 @@
+#Exemplo 6 WHILE
+#Repetição até o 100 imprimindo apenas numeros Pares!
+
+i = 0         
+while(i<=100):
+    if(i % 2 == 0):
+        print(i)
+    i += 1
