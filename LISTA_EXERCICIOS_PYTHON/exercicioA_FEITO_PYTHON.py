@@ -6,14 +6,14 @@ salario = int(input("Digite o Salário: "))
 venda = int(input("Digite o valor das vendas: "))
 
 salarioTotal = salario + venda
-comissao = salarioTotal * 0.5
-comissao2 = salarioTotal * 0.3
+comissao = salarioTotal * 0.05
+comissao2 = salarioTotal * 0.03
 
 if (venda > 1500):
-    result = venda + comissao * 0.5
+    result = venda + comissao * 0.05
     print("Vendas acima de 1.500.00! Seu salário será: ", result)
 elif (venda < 1500):
-    result = venda + comissao2 * 0.3
+    result = venda + comissao2 * 0.03
     print("Venda abaixo de 1.500.00! Seu salario será: ", result)
 else:
     print("Não vendeu um peixinho! :(")
