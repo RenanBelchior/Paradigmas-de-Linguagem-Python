@@ -138,8 +138,25 @@ print(qtde_frutas.pop('banana', 'Elemento não encontrado'))
 Vai imprimir: 20
 Elemento não encontrado
 ----------------------------------------------------------------------------------
+EXERCICIO
+#Questão 01: Desenvolva um programa que tendo uma lista de
+#inteiros, retorne o maior número dessa lista.
+#lista = [2,3,4,1,4,6,3,7,54,4,1]
+
+#print("Maior número:",max(lista))
 
 
+#Questão 02: Desenvolva um programa que tendo uma lista de
+#inteiros repetidos, retorne uma nova lista eliminando elementos
+#duplicados.
+#a = {1,1,1,2,3,4,5,6,7,8,8,9,10}
+
+#print(a)
+
+
+#Questão 03: Seja a seguinte tupla: exe_tupla = ("Orange",
+#[10, 20, 30], (5, 15, 25)), imprima na tela o número 20,
+#acessando pelo índice/endereço dela.
 
 
 
